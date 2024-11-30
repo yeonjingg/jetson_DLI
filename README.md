@@ -16,17 +16,17 @@
 
 4. 우분투 설치
 ![image](https://github.com/user-attachments/assets/b5f9768c-e0f5-4b71-9b83-10cc4eeeadde)
-
+![image](https://github.com/user-attachments/assets/8ab72ebc-3672-4888-af11-a292b74ac441)
+![image](https://github.com/user-attachments/assets/69d8f1de-d2e5-42f0-96b9-493f034d0e28)
+![image](https://github.com/user-attachments/assets/65c96e17-c0b0-45fb-81ff-50b7625baa03)
 6. 한글설정
-   아래 링크 참고합니다.
+   아래 링크 참고합니다.   
     https://driz2le.tistory.com/253
 
 # 11/14(Thu)
 ## Cameras
 ![image](https://github.com/user-attachments/assets/db2d72c8-872f-4645-a691-ccf5976cbf32)
-![image](https://github.com/user-attachments/assets/8ab72ebc-3672-4888-af11-a292b74ac441)
-![image](https://github.com/user-attachments/assets/69d8f1de-d2e5-42f0-96b9-493f034d0e28)
-![image](https://github.com/user-attachments/assets/65c96e17-c0b0-45fb-81ff-50b7625baa03)
+
 
 
 USB 커넥터를 젯슨 개발자 키트의 아무 USB 포트에나 연결하면 됩니다.
@@ -59,7 +59,7 @@ USB 커넥터를 젯슨 개발자 키트의 아무 USB 포트에나 연결하면
 ## docker와 swap설치 
 ![image](https://github.com/user-attachments/assets/d7227abe-5741-471c-9544-5b89a46512ea)
 1)docker란? 
-컨테이너를 통해 소프트웨어를 격리하고 필요한 자원만 사용하도록 하여 메모리를 효율적으로 활용할 수 있게 합니다. 이를 통해 Jetson의 자원 충돌을 방지하고, GPU 가속을 활용한 딥러닝 작업을 안정적으로 수행할 수 있습니다.
+컨테이너를 통해 소프트웨어를 격리하고 필요한 자원만 사용하도록 하여 메모리를 효율적으로 활용할 수 있게 합니다. 이를 통해 Jetson의 자원 충돌을 방지하고, GPU 가속을 활용한 딥러닝 작업을 안정적으로 수행할 수 있습니다.   
 2) swap이란?
 Swap 파일은 가상 메모리 공간을 제공합니다. 즉, 물리적 메모리가 부족할 때 하드 디스크나 SSD의 일부를 메모리처럼 사용하여 추가 작업 공간을 확보합니다. 이를 통해 Jetson에서도 RAM 초과로 인한 제한 없이 Jupyter Notebook을 열거나, 동영상 데이터를 처리하는 등 메모리를 많이 사용하는 작업을 수행할 수 있습니다.
 
