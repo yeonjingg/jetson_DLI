@@ -2,6 +2,8 @@
 
 ### 11/7(Thu)
 ## Introduction and Setup
+
+언니 안녕? 보여?
 ![image](https://github.com/user-attachments/assets/c603d0f3-506b-474b-bed3-69573b70f84c)
 1) MIPI CSI 카메라 커넥터 옆 또는 배럴 전원 포트 (B01 버전) 뒤에 위치해 있는 J48 2핀 커넥터에 2핀 점퍼를 꽂아줍니다. 점퍼 연결 후 DC 배럴 전원 공급이 활성화됩니다.
 2) DC 배럴 잭 전원(5V/4A)을 연결합니다. 젯슨 개발자 키트의 전원이 켜지고 자동으로 부팅됩니다.
