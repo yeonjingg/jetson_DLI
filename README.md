@@ -8,11 +8,11 @@
 ![image](https://github.com/user-attachments/assets/2b741da1-8e48-467c-964b-39f86dc71ee3)
 ![image](https://github.com/user-attachments/assets/3d848113-5e5e-4e6d-8e8c-dffc8cd1dae8)
 
-![image](https://github.com/user-attachments/assets/c603d0f3-506b-474b-bed3-69573b70f84c)
-4. MIPI CSI 카메라 커넥터 옆 또는 배럴 전원 포트 (B01 버전) 뒤에 위치해 있는 J48 2핀 커넥터에 2핀 점퍼를 꽂아줍니다. 점퍼 연결 후 DC 배럴 전원 공급이 활성화됩니다.
-5. DC 배럴 잭 전원(5V/4A)을 연결합니다. 젯슨 개발자 키트의 전원이 켜지고 자동으로 부팅됩니다.
-6. 개발자 키트의 전원이 켜지는 즉시 마이크로 USB 커넥터 옆에 있는 녹색 LED에 불이 들어옴을 확인할 수 있습니다.
-7. sd카드를 꼽고 모니터, 키보드, 와이파이 동글, 마우스 usb 커넥터에 연결합니다.
+![image](https://github.com/user-attachments/assets/c603d0f3-506b-474b-bed3-69573b70f84c)   
+4. MIPI CSI 카메라 커넥터 옆 또는 배럴 전원 포트 (B01 버전) 뒤에 위치해 있는 J48 2핀 커넥터에 2핀 점퍼를 꽂아줍니다. 점퍼 연결 후 DC 배럴 전원 공급이 활성화됩니다.   
+5. DC 배럴 잭 전원(5V/4A)을 연결합니다. 젯슨 개발자 키트의 전원이 켜지고 자동으로 부팅됩니다.   
+6. 개발자 키트의 전원이 켜지는 즉시 마이크로 USB 커넥터 옆에 있는 녹색 LED에 불이 들어옴을 확인할 수 있습니다.    
+7. sd카드를 꼽고 모니터, 키보드, 와이파이 동글, 마우스 usb 커넥터에 연결합니다.   
 
 8. 우분투 설치
 ![image](https://github.com/user-attachments/assets/b5f9768c-e0f5-4b71-9b83-10cc4eeeadde)
@@ -70,7 +70,7 @@ Swap 파일은 가상 메모리 공간을 제공합니다. 즉, 물리적 메모
     *camera : usb/csi 
     *!ls- ltrh/dev/video : video 0
 
-3) 초기 데이터를 수집하기
+3) 초기 데이터를 수집하기   
 ![image](https://github.com/user-attachments/assets/971d362a-2689-468a-9a33-230a8208d100)
 ![image](https://github.com/user-attachments/assets/de72440a-fe29-4d06-a6ae-87868e616177)
 
