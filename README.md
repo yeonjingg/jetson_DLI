@@ -9,17 +9,17 @@
 ![image](https://github.com/user-attachments/assets/3d848113-5e5e-4e6d-8e8c-dffc8cd1dae8)
 
 ![image](https://github.com/user-attachments/assets/c603d0f3-506b-474b-bed3-69573b70f84c)
-1) MIPI CSI 카메라 커넥터 옆 또는 배럴 전원 포트 (B01 버전) 뒤에 위치해 있는 J48 2핀 커넥터에 2핀 점퍼를 꽂아줍니다. 점퍼 연결 후 DC 배럴 전원 공급이 활성화됩니다.
-2) DC 배럴 잭 전원(5V/4A)을 연결합니다. 젯슨 개발자 키트의 전원이 켜지고 자동으로 부팅됩니다.
-3) 개발자 키트의 전원이 켜지는 즉시 마이크로 USB 커넥터 옆에 있는 녹색 LED에 불이 들어옴을 확인할 수 있습니다.
-4) sd카드를 꼽고 모니터, 키보드, 와이파이 동글, 마우스 usb 커넥터에 연결합니다.
+4. MIPI CSI 카메라 커넥터 옆 또는 배럴 전원 포트 (B01 버전) 뒤에 위치해 있는 J48 2핀 커넥터에 2핀 점퍼를 꽂아줍니다. 점퍼 연결 후 DC 배럴 전원 공급이 활성화됩니다.
+5. DC 배럴 잭 전원(5V/4A)을 연결합니다. 젯슨 개발자 키트의 전원이 켜지고 자동으로 부팅됩니다.
+6. 개발자 키트의 전원이 켜지는 즉시 마이크로 USB 커넥터 옆에 있는 녹색 LED에 불이 들어옴을 확인할 수 있습니다.
+7. sd카드를 꼽고 모니터, 키보드, 와이파이 동글, 마우스 usb 커넥터에 연결합니다.
 
-4. 우분투 설치
+8. 우분투 설치
 ![image](https://github.com/user-attachments/assets/b5f9768c-e0f5-4b71-9b83-10cc4eeeadde)
 ![image](https://github.com/user-attachments/assets/8ab72ebc-3672-4888-af11-a292b74ac441)
 ![image](https://github.com/user-attachments/assets/69d8f1de-d2e5-42f0-96b9-493f034d0e28)
 ![image](https://github.com/user-attachments/assets/65c96e17-c0b0-45fb-81ff-50b7625baa03)
-6. 한글설정
+9. 한글설정
    아래 링크 참고합니다.   
     https://driz2le.tistory.com/253
 
@@ -33,12 +33,6 @@ USB 커넥터를 젯슨 개발자 키트의 아무 USB 포트에나 연결하면
 
 *사진 캡처 및 영상 동작 확인
 ![image](https://github.com/user-attachments/assets/aaa7a217-1b99-4a56-888e-631fca6fa8f7)
-
-
-
-
-
-
 
 
 # 11/21(Thu)
@@ -58,7 +52,7 @@ USB 커넥터를 젯슨 개발자 키트의 아무 USB 포트에나 연결하면
 
 ## docker와 swap설치 
 ![image](https://github.com/user-attachments/assets/d7227abe-5741-471c-9544-5b89a46512ea)
-1)docker란? 
+1) docker란? 
 컨테이너를 통해 소프트웨어를 격리하고 필요한 자원만 사용하도록 하여 메모리를 효율적으로 활용할 수 있게 합니다. 이를 통해 Jetson의 자원 충돌을 방지하고, GPU 가속을 활용한 딥러닝 작업을 안정적으로 수행할 수 있습니다.   
 2) swap이란?
 Swap 파일은 가상 메모리 공간을 제공합니다. 즉, 물리적 메모리가 부족할 때 하드 디스크나 SSD의 일부를 메모리처럼 사용하여 추가 작업 공간을 확보합니다. 이를 통해 Jetson에서도 RAM 초과로 인한 제한 없이 Jupyter Notebook을 열거나, 동영상 데이터를 처리하는 등 메모리를 많이 사용하는 작업을 수행할 수 있습니다.
@@ -87,7 +81,7 @@ Swap 파일은 가상 메모리 공간을 제공합니다. 즉, 물리적 메모
 6) 모델 개선하기
 7) 모델 저장하기
 
-*) 화면이 어떻게 구현된걸까? by 아이파이 위젯
+*) 화면이 어떻게 구현된걸까? by 아이파이 위젯   
 iPyWidgets(아이파이 위젯)은 Jupyter Notebook에서 인터랙티브 위젯을 생성하여 데이터를 시각화하거나, 모델을 조작하거나, 인터페이스를 생성할 수 있도록 돕는 Python 라이브러리입니다. 이를 활용하면 코드 실행 결과를 동적으로 조작하고 확인할 수 있어 실험 및 데이터 분석 작업에 매우 유용합니다.
 
 
